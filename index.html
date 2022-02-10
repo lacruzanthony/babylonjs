@@ -1,9 +1,24 @@
 <html>
+
 <head>
   <title>Babylon.js Viewer - Display a 3D model</title>
-  <script src="https://preview.babylonjs.com/viewer/babylon.viewer.js"></script> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>BabylonJS Viewer - DOM usage</title>
+  <style>
+    .myContainer {
+      width: 400px;
+      height: 400px;
+    }
+  </style>
+  <script src="https://preview.babylonjs.com/viewer/babylon.viewer.js"></script>
 </head>
+
 <body>
+  <div class="myContainer">
     <babylon model="https://models.babylonjs.com/boombox.glb" templates.main.params.fill-screen="true"></babylon>
+  </div>
 </body>
+
 </html>
